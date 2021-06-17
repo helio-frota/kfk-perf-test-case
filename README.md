@@ -23,7 +23,7 @@ $ time node node-rdkafka-producer.js
 
 real	0m0.073s
 user	0m0.039s
-sys		0m0.010s
+sys     0m0.010s
 ```
 
 producing 10.000 messages
@@ -33,7 +33,7 @@ $ time node node-rdkafka-producer.js
 
 real	0m0.080s
 user	0m0.092s
-sys		0m0.000s
+sys     0m0.000s
 ```
 
 producing 1.000.000 messages
@@ -43,7 +43,7 @@ $ time node node-rdkafka-producer.js
 
 real	0m1.663s
 user	0m1.764s
-sys		0m0.131s
+sys     0m0.131s
 ```
 
 Check the number of messages sent to the Kafka broker:
@@ -67,7 +67,7 @@ last message: value-999999
 
 real	0m9.491s
 user	0m5.769s
-sys		0m0.314s
+sys     0m0.314s
 ```
 
 ---
@@ -84,7 +84,7 @@ $ time node kafkajs-producer.js
 
 real	0m0.261s
 user	0m0.145s
-sys		0m0.010s
+sys     0m0.010s
 ```
 
 producing 10.000 messages
@@ -94,7 +94,7 @@ $ time node kafkajs-producer.js
 
 real	0m4.124s
 user	0m2.124s
-sys		0m0.250s
+sys     0m0.250s
 ```
 
 producing 1.000.000 messages
@@ -104,7 +104,7 @@ $ time node kafkajs-producer.js
 
 real	2m44.518s
 user	1m29.784s
-sys		0m14.727s
+sys     0m14.727s
 ```
 
 Check the number of messages sent to the Kafka broker:
@@ -128,5 +128,5 @@ last message: value-999999
 
 real	0m28.375s
 user	0m24.994s
-sys		0m6.042s
+sys     0m6.042s
 ```
