@@ -1,0 +1,15 @@
+{
+  "name": "kfk-perf-test-case",
+  "version": "1.0.0",
+  "description": "Basic performance test case with node-rdkafka and kafkajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \".\" && exit 0"
+  },
+  "author": "Helio Frota",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "node-rdkafka": "^2.10.1"
+  }
+}
