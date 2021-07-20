@@ -2,7 +2,7 @@
 
 Basic performance test case, this is not a benchmark test comparing both Node.js kafka clients at the same time.
 
-* The test is to check the time spent to produce and consume messages.
+* The test is to check the time spent to produce and consume messages using **only one partition**.
 
 Node.js and Kafka version:
 
